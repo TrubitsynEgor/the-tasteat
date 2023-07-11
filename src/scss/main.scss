@@ -1,0 +1,16 @@
+//* components basic
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+//* components header
+@import "./components/header";
+//* components main
+@import "./components/hero";
+
+//* components footer
+@import "./components/footer";
+
+
+//* components reused
