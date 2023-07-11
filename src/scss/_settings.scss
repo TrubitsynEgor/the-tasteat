@@ -121,6 +121,10 @@ address {
   text-transform: capitalize;
   color: var(--light);
 
+  &--dark {
+    color: var(--dark);
+  }
+
   @include tablet {
     text-align: center;
   }
@@ -193,6 +197,7 @@ address {
 }
 
 .description {
+  margin: 0;
   color: var(--light);
   font-family: var(--josefin);
   font-size: 20px;
