@@ -1,16 +1,14 @@
 .menu {
   padding-top: 183px;
+  padding-bottom: 124px;
 
   @media (max-width: 768px) {
     padding-top: 103px;
-
-
+    padding-bottom: 40px;
   }
 
   @media (max-width: 560px) {
     padding-top: 63px;
-
-
   }
 
   &__container {
