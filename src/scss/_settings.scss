@@ -173,6 +173,20 @@ address {
 
 }
 
+.bage {
+  align-self: start;
+  display: inline-block;
+  padding-top: 3px;
+  color: var(--dark);
+  font-family: var(--josefin);
+  font-size: 15px;
+  line-height: 22.5px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border-top: 1px solid var(--accent);
+  border-bottom: 1px solid var(--accent);
+}
+
 .logo {
   transition: all .25s ease-in-out;
 

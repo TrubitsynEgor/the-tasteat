@@ -87,6 +87,11 @@
       width: 25px;
       height: 25px;
       fill: var(--light);
+      transition: all .2s ease-in-out;
+
+      &:hover {
+        fill: var(--accent);
+      }
     }
   }
 
@@ -120,9 +125,14 @@
     color: var(--light);
     font-family: var(--josefin);
     font-size: 20px;
+    transition: all .2s ease-in-out;
 
     @media (max-width: 900px) {
       font-size: 26px;
+    }
+
+    &:hover {
+      color: var(--accent);
     }
   }
 }
