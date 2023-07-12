@@ -17,6 +17,30 @@ for (let smoothLink of smoothLinks) {
   });
 }
 
+const reservation = document.querySelector(".header__btn--big");
+reservation.addEventListener("click", (e) => {
+  e.preventDefault();
+
+  const block = document.querySelector(".reservation");
+
+  block.scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+  });
+});
+
+const menu = document.querySelector(".hero__btn");
+menu.addEventListener("click", (e) => {
+  e.preventDefault();
+
+  const block = document.querySelector(".menu");
+
+  block.scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+  });
+});
+
 if (window.innerWidth <= 900) {
   window.addEventListener("scroll", () => {
     const scroll = window.pageYOffset;

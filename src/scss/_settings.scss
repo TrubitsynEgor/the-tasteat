@@ -193,6 +193,9 @@ address {
   text-transform: uppercase;
   border-top: 1px solid var(--accent);
   border-bottom: 1px solid var(--accent);
+
+  @media (max-width: 640px) {}
+
 }
 
 .logo {
@@ -279,4 +282,8 @@ address {
     width: 100%;
 
   }
+}
+
+.accent {
+  color: var(--accent) !important;
 }
