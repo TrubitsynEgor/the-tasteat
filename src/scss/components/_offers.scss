@@ -1,0 +1,83 @@
+.offers {
+  padding: 63px 0 140px;
+
+  @media (max-width: 600px) {
+    padding-bottom: 60px;
+
+  }
+
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__description {
+    max-width: 760px;
+    text-align: center;
+    padding-bottom: 50px;
+
+  }
+
+  &__bage {
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+
+  }
+
+  &__box {
+    display: flex;
+    gap: 20px;
+
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 65px;
+
+    @media (max-width: 1374px) {
+      flex-wrap: wrap;
+      justify-content: center;
+
+    }
+
+    @media (max-width: 600px) {
+      padding-bottom: 40px;
+
+    }
+
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    max-width: 318px;
+    gap: 10px;
+
+    & img {
+      object-fit: cover;
+
+    }
+  }
+
+  &__card-pricebox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #DCDCDC;
+
+
+  }
+
+  &__card-title,
+  &__card-price {
+    color: var(--dark);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.2px;
+  }
+
+  &__card-price {}
+}
