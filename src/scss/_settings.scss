@@ -171,6 +171,14 @@ address {
     }
   }
 
+  &--light {
+    background-color: var(--light);
+
+    &:hover {
+      background-color: var(--accent);
+    }
+  }
+
 }
 
 .bage {
@@ -232,4 +240,43 @@ address {
     font-size: 16px;
   }
 
+}
+
+.input {
+  padding: 18px 23px;
+  border: 1px solid #858585;
+  color: var(--light);
+  font-family: var(--josefin);
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.2px;
+  background-color: transparent;
+  width: 200px;
+  height: 70px;
+
+  &::placeholder {
+    color: var(--light);
+  }
+
+  &:focus {
+    outline: 2px solid #858585;
+  }
+
+  @media (max-width: 900px) {
+    height: 50px;
+
+    padding: 10px 20px;
+    font-size: 18px;
+    line-height: 14px;
+  }
+
+
+  &--large {
+    width: 300px;
+  }
+
+  @media (max-width: 700px) {
+    width: 100%;
+
+  }
 }
